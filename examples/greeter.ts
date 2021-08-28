@@ -1,12 +1,12 @@
 class User {
-  fullName: string
+  // fullName: string
   firstName: string
   lastName: string
 
   constructor(firstName: string, lastName: string) {
     this.firstName = firstName
     this.lastName = lastName
-    this.fullName = firstName + lastName
+    // this.fullName = firstName + lastName
   }
 }
 
@@ -15,12 +15,12 @@ interface Person {
   lastName: string
 }
 
-function greeter(person: Person) {
-  return 'Hello ' + person.firstName + '' + person.lastName
-}
-
-let user = new User('Qiang', 'Xu')
-console.log(greeter(user))
+// function greeter(person: Person) {
+//   return 'Hello ' + person.firstName + '' + person.lastName
+// }
+//
+// let user = new User('Qiang', 'Xu')
+// console.log(greeter(user))
 
 let list: number[] = [1, 2, 3]
 let list2: Array<number> = [1, 2, 3]
